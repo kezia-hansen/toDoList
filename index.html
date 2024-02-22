@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2>My To Do List <img src="images/icon.png" alt="notebook"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text...">
+                <button class="add-task" type="button">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+        <div class="select">
+            <label for="choose_theme"></label>
+
+            <select name="filter" id="filter">
+                <option value="">--Please choose an option--</option>
+                <option value="all">All</option>
+                <option value="unchecked">Unchecked</option>
+                <option value="checked">Checked</option>
+            </select>
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
